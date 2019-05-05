@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Mali:600" rel="stylesheet">
+    <link rel="stylesheet" href="puissance4.css">
+</head>
+
+<body>
+        <img class="coin" src="media/coin.gif" alt="coin">
+        <img class="money" src="media/money.gif" alt="gif argent">
+    <!--  -->
+	
+	<div class="container-fluid d-flex align-items-center justify-content-center text-center imgtitle">
+			<h1 class="petit">puissance <span class="quatre">4</span></h1>
+			
+		</div>
+		<nav class="fondnav navbar navbar-expand-lg navbar-dark">
+		  <a class="navbar-brand">MODE DE JEU</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    <div class="navbar-nav">
+		      <a class="humain nav-item nav-link active">Joueur 1 VS Joueur 2 <span class="sr-only">(current)</span></a>
+		      <a class="ordi nav-item nav-link">Joueur 1 VS Ordinateur </a>
+		      <a class="ai nav-item nav-link">Joueur 1 VS AI </a>
+		    </div>
+		  </div>
+		</nav>
+		<section class="container-fluid d-flex flex-column align-items-center justify-content-center fondpage">
+			<div class="joueur">
+				
+			</div>
+			<div class="fondjeu tokenred d-flex flex-row">
+			    <div id="col1" class="d-flex flex-column">
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			    </div>
+			    <div id="col2" class="d-flex flex-column">
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			    </div>
+			    <div id="col3" class="d-flex flex-column">
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			    </div>
+			    <div id="col4" class="d-flex flex-column">
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			    </div>
+			    <div id="col5" class="d-flex flex-column">
+			       	<div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			    </div>
+			    <div id="col6" class="d-flex flex-column">
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			    </div>
+			    <div id="col7" class="d-flex flex-column">
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			        <div class="blanc case"></div>
+			    </div>
+			</div>
+			<div class="resultat d-flex flex-wrap">
+				
+			</div>
+			<div class="reset">
+    		<a id="replay" class="btn btn-primary">REJOUER</a>
+    		<a href="index.html" class="btn btn-primary">SORTIR DU JEU</a>
+    	</div>
+    	</section> 	
+		<div class="card text-center">
+		  <div class="card-header">
+		    Puissance 4 
+		  </div>
+		  <div class="card-body fondfooter">
+		    <h3 class="card-title">Access Code School</h3>
+		    <p class="card-text">Jeu programmé en Javascipt, CSS3 et Html5.</p>
+		    
+		  </div>
+		  <div class="card-footer text-muted">
+		    © 2018 - Tout droit réservé
+		  </div>
+		</div>
+<!-- 	<section class="container-fluid d-flex flex-column align-items-center justify-content-center fondpage">
+
+		
+    </section>
+ -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="puissance4.js"></script>
+</body>
+
+</html>

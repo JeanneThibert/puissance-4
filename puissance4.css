@@ -1,0 +1,600 @@
+.fondecran {
+    background-image:url(media/salle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:none;
+}
+
+.jouer {
+    font-size: 15px;
+    margin-bottom: 50px;
+    -webkit-animation-name: play;
+    -webkit-animation-duration: 900ms;
+    -webkit-transform-origin:50% 50%;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    }
+    
+    @-webkit-keyframes play {
+    
+    
+    
+    0% { -webkit-transform: rotate(3deg); }
+    
+    50% { -webkit-transform: rotate(-3deg); }
+    
+    100% { -webkit-transform: rotate(3deg); }
+    }
+    
+    
+
+.case:hover {
+    background-color: rgb(209, 209, 209);
+
+}
+
+.humain:hover, .ordi:hover, .ai:hover {
+    cursor: pointer;
+}
+
+.tokenred:hover {
+    cursor: url("media/tokenred.png"), pointer;
+}
+
+.tokenyel:hover {
+    cursor: url("media/tokenyel.png"), pointer;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+#replay {
+    color:white;
+}
+
+.money {
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 50%;
+    margin-top: 130px;
+    z-index: 99;
+}
+
+.coin {
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 50%;
+    margin-top: -25px;
+    z-index: 99;
+    width: 500px;
+}
+
+.petit{
+	color: #007bff;
+	text-transform: uppercase;
+	text-shadow: 0 3px 5px rgba(0,0,0,1);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 6rem;
+    font-family: 'Mali', cursive;
+    transition: 0.5s;
+}
+.gros{
+	color: yellow;
+	opacity: .8;
+	text-transform: uppercase;
+	text-shadow: 0 3px 5px rgba(0,0,0,1);
+	padding-bottom: 35px;
+	font-size: 7rem;
+    transition: 0.5s;
+    font-family: 'Mali', cursive;
+}
+.quatre{
+	color: red;
+	font-size: 6rem;
+
+}
+
+.imgtitle {
+	background: url(media/jeu2.jpg);
+	height: 30vh;
+}
+
+.fondnav{
+	font-family: 'Mali', cursive;
+	font-weight: bold;
+	background-color: #007bff;
+
+}
+
+.regle{
+	font-family: 'Mali', cursive;
+	background: url(media/regle.jpg);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+
+}
+
+.regle h2{
+	font-size: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.regle p{
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+.regle a{
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+.fondpage{
+	background: url(media/borne2.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.fondjeu{
+
+	padding: 5px;
+	opacity: .9;
+	box-shadow: -1px 2px 12px 0px rgba(0,0,0,0.75);
+	border: solid black 3px;
+	margin-top: 50px;
+	border-radius: 2%;
+
+}
+.fondfooter{
+	background-color: #007bff !important;
+
+}
+.case {
+	border: solid black 3px;
+	height: 100px;
+	width: 100px;
+    border-radius: 50%;
+
+}
+
+.blanc {
+    background-color: white;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.jaune {
+    background-color: yellow;
+}
+
+
+.resultat{
+	font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.joueur {
+    color: white;
+}
+
+.reset{
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+@media (max-width: 575px) and (orientation:portrait){ 
+
+.money {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: 60px;
+    z-index: 99;
+    width: 250px;
+}
+
+.coin {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: 0px;
+    z-index: 99;
+    width: 250px;
+}
+    .petit{
+        color: #007bff;
+        text-transform: uppercase;
+        text-shadow: 0 3px 5px rgba(0,0,0,1);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 2rem;
+        font-family: 'Mali', cursive;
+        transition: 0.5s;
+    }
+    .gros{
+        color: yellow;
+        opacity: .8;
+        text-transform: uppercase;
+        text-shadow: 0 3px 5px rgba(0,0,0,1);
+        padding-bottom: 35px;
+        font-size: 3rem;
+        transition: 0.5s;
+        font-family: 'Mali', cursive;
+    }
+.quatre{
+	color: red;
+	font-size: 2rem;
+
+}
+.quatre:hover{
+	color: red;
+	font-size: 40px;
+	transition: 1s;
+
+}
+.case {
+	border: solid black 3px;
+	height: 40px;
+	width: 40px;
+
+    border-radius: 50%;
+}
+
+}
+@media (max-width: 575px) and (orientation:landscape) { 
+.money {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: 115px;
+    z-index: 99;
+    width: 250px;
+}
+
+.coin {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: 65px;
+    z-index: 99;
+    width: 250px;
+}
+    .petit{
+        color: #007bff;
+        text-transform: uppercase;
+        text-shadow: 0 3px 5px rgba(0,0,0,1);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 2rem;
+        font-family: 'Mali', cursive;
+        transition: 0.5s;
+    }
+    .gros{
+        color: yellow;
+        opacity: .8;
+        text-transform: uppercase;
+        text-shadow: 0 3px 5px rgba(0,0,0,1);
+        padding-bottom: 35px;
+        font-size: 3rem;
+        transition: 0.5s;
+        font-family: 'Mali', cursive;
+    }
+.quatre{
+	color: red;
+	font-size: 2rem;
+
+}
+.case {
+	border: solid black 3px;
+	height: 40px;
+	width: 40px;
+
+    border-radius: 50%;
+}
+
+
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+.money {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: 110px;
+    z-index: 99;
+    width: 250px;
+}
+
+.coin {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: 60px;
+    z-index: 99;
+    width: 250px;
+}
+    .petit{
+        color: #007bff;
+        text-transform: uppercase;
+        text-shadow: 0 3px 5px rgba(0,0,0,1);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 3rem;
+        font-family: 'Mali', cursive;
+        transition: 0.5s;
+    }
+    .gros{
+        color: yellow;
+        opacity: .8;
+        text-transform: uppercase;
+        text-shadow: 0 3px 5px rgba(0,0,0,1);
+        padding-bottom: 35px;
+        font-size: 4rem;
+        transition: 0.5s;
+        font-family: 'Mali', cursive;
+    }
+.quatre{
+	color: red;
+	font-size: 3rem;
+
+}
+.case {
+	border: solid black 3px;
+	height: 40px;
+	width: 40px;
+
+    border-radius: 50%;
+}
+
+
+}
+
+ @media (min-width: 768px) and (max-width: 991px) and (orientation:portrait) {
+.money {
+        position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 38%;
+    margin-top: 60px;
+    z-index: 99;
+    width: 300px;
+}
+
+.coin {
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 35%;
+    margin-top: 0px;
+    z-index: 99;
+    width: 300px;
+}
+.imgtitle {
+	background: url(media/jeu2.jpg);
+	height: 20vh;
+}
+	h1{
+	color: #007bff;
+	text-transform: uppercase;
+	text-shadow: 0 3px 5px rgba(0,0,0,1);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 50px;
+	font-family: 'Mali', cursive;
+}
+h1:hover{
+	color: yellow;
+	opacity: .8;
+	text-transform: uppercase;
+	text-shadow: 0 3px 5px rgba(0,0,0,1);
+	padding-bottom: 35px;
+	font-size: 60px;
+	transition: 1s;
+}
+.quatre{
+	color: red;
+	font-size: 50px;
+
+}
+
+.case {
+	border: solid black 3px;
+	height: 60px;
+	width: 60px;
+
+    border-radius: 50%;
+}
+
+}
+ @media (min-width: 768px) and (max-width: 991px) and (orientation:landscape) {
+.money {
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    top: 50%;
+    margin-top: 120px;
+    z-index: 99;
+    width: 350px;
+}
+
+.coin {
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    top: 50%;
+    margin-top: 25px;
+    z-index: 99;
+    width: 350px;
+}
+.imgtitle {
+	background: url(media/jeu2.jpg);
+	height: 15vh;
+}
+.petit{
+	color: #007bff;
+	text-transform: uppercase;
+	text-shadow: 0 3px 5px rgba(0,0,0,1);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 3rem;
+    font-family: 'Mali', cursive;
+    transition: 0.5s;
+}
+.gros{
+	color: yellow;
+	opacity: .8;
+	text-transform: uppercase;
+	text-shadow: 0 3px 5px rgba(0,0,0,1);
+	padding-bottom: 35px;
+	font-size: 4rem;
+    transition: 0.5s;
+    font-family: 'Mali', cursive;
+}
+.quatre{
+	color: red;
+	font-size: 3rem;
+
+}
+.case {
+	border: solid black 3px;
+	height: 70px;
+	width: 70px;
+
+    border-radius: 50%;
+}
+
+}
+	
+ @media (min-width: 992px) and (max-width: 1199px) and (orientation:landscape) {
+
+.money {
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: 120px;
+    z-index: 99;
+    width: 400px;
+}
+
+.coin {
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 47%;
+    margin-top: 25px;
+    z-index: 99;
+    width: 400px;
+}
+.petit{
+	color: #007bff;
+	text-transform: uppercase;
+	text-shadow: 0 3px 5px rgba(0,0,0,1);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 5rem;
+    font-family: 'Mali', cursive;
+    transition: 0.5s;
+}
+.gros{
+	color: yellow;
+	opacity: .8;
+	text-transform: uppercase;
+	text-shadow: 0 3px 5px rgba(0,0,0,1);
+	padding-bottom: 35px;
+	font-size: 6rem;
+    transition: 0.5s;
+    font-family: 'Mali', cursive;
+}
+
+.quatre{
+	color: red;
+	font-size: 5rem;
+
+}
+
+
+.case {
+	border: solid black 3px;
+	height: 80px;
+	width: 80px;
+
+    border-radius: 50%;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) and (orientation:portrait) {
+.money {
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 27%;
+    margin-top: 120px;
+    z-index: 99;
+    width: 400px;
+}
+
+.coin {
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 25%;
+    margin-top: 25px;
+    z-index: 99;
+    width: 400px;
+}
+.imgtitle {
+	background: url(media/jeu2.jpg);
+	height: 15vh;
+}
+		h1{
+	color: #007bff;
+	text-transform: uppercase;
+	text-shadow: 0 3px 5px rgba(0,0,0,1);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 50px;
+	font-family: 'Mali', cursive;
+}
+h1:hover{
+	color: yellow;
+	opacity: .8;
+	text-transform: uppercase;
+	text-shadow: 0 3px 5px rgba(0,0,0,1);
+	padding-bottom: 35px;
+	font-size: 60px;
+	transition: 1s;
+}
+.quatre{
+	color: red;
+	font-size: 50px;
+
+}
+.quatre:hover{
+	color: red;
+	font-size: 60px;
+	transition: 1s;
+
+}
+.case {
+	border: solid black 3px;
+	height: 80px;
+	width: 80px;
+
+    border-radius: 50%;
+}
+
+
+}
